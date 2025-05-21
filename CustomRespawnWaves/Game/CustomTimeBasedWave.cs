@@ -32,7 +32,7 @@ public abstract class CustomTimeBasedWave : TimeBasedWave
         LabApi.Events.Handlers.ServerEvents.WaveRespawned += ServerEvents_WaveRespawned;
     }
 
-    private void ServerEvents_WaveRespawned(LabApi.Events.Arguments.ServerEvents.WaveRespawnedEventArgs ev)
+    protected void ServerEvents_WaveRespawned(LabApi.Events.Arguments.ServerEvents.WaveRespawnedEventArgs ev)
     {
         if (ev.Wave.Base != this)
             return;
@@ -43,6 +43,11 @@ public abstract class CustomTimeBasedWave : TimeBasedWave
     {
         base.OnInstanceDestroyed();
         LabApi.Events.Handlers.ServerEvents.WaveRespawned -= ServerEvents_WaveRespawned;
+    }
+
+    public sealed override void OnAnyWaveSpawned(SpawnableWaveBase wave, List<ReferenceHub> spawnedPlayers)
+    {
+        base.OnAnyWaveSpawned(wave, spawnedPlayers);
     }
 
     public virtual void WaveSpawned(List<Player> spawnedPlayers)
