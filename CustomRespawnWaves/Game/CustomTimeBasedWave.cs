@@ -1,6 +1,4 @@
-﻿using CustomRespawnWaves;
-using CustomRespawnWaves.Configs;
-using Respawning.Config;
+﻿using CustomRespawnWaves.Configs;
 using UnityEngine;
 
 #pragma warning disable IDE0130 // Namespace does not match folder structure
@@ -45,7 +43,7 @@ public abstract class CustomTimeBasedWave : TimeBasedWave
         LabApi.Events.Handlers.ServerEvents.WaveRespawned -= ServerEvents_WaveRespawned;
     }
 
-    public sealed override void OnAnyWaveSpawned(SpawnableWaveBase wave, List<ReferenceHub> spawnedPlayers)
+    public override void OnAnyWaveSpawned(SpawnableWaveBase wave, List<ReferenceHub> spawnedPlayers)
     {
         base.OnAnyWaveSpawned(wave, spawnedPlayers);
     }

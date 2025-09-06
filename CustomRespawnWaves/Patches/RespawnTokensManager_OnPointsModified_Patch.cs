@@ -5,7 +5,7 @@ using System.Reflection.Emit;
 
 namespace CustomRespawnWaves.Patches;
 
-[HarmonyPatch(typeof(RespawnTokensManager), "OnPointsModified")]
+[HarmonyPatch(typeof(RespawnTokensManager), nameof(RespawnTokensManager.OnPointsModified))]
 internal class RespawnTokensManager_OnPointsModified_Patch
 {
     public static IEnumerable<CodeInstruction> OnPointsModified_Transpiler(IEnumerable<CodeInstruction> instructions)

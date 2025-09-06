@@ -1,7 +1,7 @@
 ﻿using CustomRespawnWaves.ScpWave;
 using CustomRespawnWaves.TestWave.CustomChaos;
 
-namespace CustomRespawnWaves;
+namespace CustomRespawnWaves.TestWave;
 
 internal class Config
 {

@@ -10,6 +10,3 @@ Or run `myWaveInstanciated.RegisterWave();` works too.
 
 ## Custom Milestones?
 Check CustomScpWave.
-
-# TODO
-Adding Exiled stuff into it.

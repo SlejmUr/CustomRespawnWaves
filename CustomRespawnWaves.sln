@@ -9,40 +9,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRespawnWaves.TestWave
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Exiled|Any CPU = Exiled|Any CPU
-		Exiled|x64 = Exiled|x64
-		Exiled|x86 = Exiled|x86
-		LabApi|Any CPU = LabApi|Any CPU
-		LabApi|x64 = LabApi|x64
-		LabApi|x86 = LabApi|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Exiled|Any CPU.ActiveCfg = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Exiled|Any CPU.Build.0 = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Exiled|x64.ActiveCfg = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Exiled|x64.Build.0 = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Exiled|x86.ActiveCfg = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Exiled|x86.Build.0 = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.LabApi|Any CPU.ActiveCfg = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.LabApi|Any CPU.Build.0 = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.LabApi|x64.ActiveCfg = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.LabApi|x64.Build.0 = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.LabApi|x86.ActiveCfg = LabApi|Any CPU
-		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.LabApi|x86.Build.0 = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Exiled|Any CPU.ActiveCfg = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Exiled|Any CPU.Build.0 = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Exiled|x64.ActiveCfg = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Exiled|x64.Build.0 = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Exiled|x86.ActiveCfg = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Exiled|x86.Build.0 = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.LabApi|Any CPU.ActiveCfg = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.LabApi|Any CPU.Build.0 = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.LabApi|x64.ActiveCfg = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.LabApi|x64.Build.0 = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.LabApi|x86.ActiveCfg = LabApi|Any CPU
-		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.LabApi|x86.Build.0 = LabApi|Any CPU
+		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF055F29-FD31-4FA6-9620-A36AC0EF72D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6E377C-DACE-4EFF-9C77-7B41BA2B4518}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F80E918B-3062-4BC7-8185-092437A7C99D}
 	EndGlobalSection
 EndGlobal

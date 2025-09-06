@@ -1,4 +1,4 @@
-﻿using CustomRespawnWaves.TestWave.ScpWave;
+﻿using CustomRespawnWaves.ScpWave;
 using MapGeneration;
 using MEC;
 using PlayerRoles;
@@ -9,7 +9,7 @@ using Respawning.Waves;
 using Respawning.Waves.Generic;
 using UnityEngine;
 
-namespace CustomRespawnWaves.ScpWave;
+namespace CustomRespawnWaves.TestWave.ScpWave;
 
 public class CustomScpWave : CustomTimeBasedWave, IAnnouncedWave, ILimitedWave, ICustomMilestone
 {

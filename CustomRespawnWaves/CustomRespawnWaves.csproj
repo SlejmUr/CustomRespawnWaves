@@ -1,11 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
-		<PropertyGroup>
-		<AssemblyName>CustomRespawnWaves</AssemblyName>
-		<RootNamespace>CustomRespawnWaves</RootNamespace>
-		<Configurations>LabApi;Exiled</Configurations>
-	</PropertyGroup>
-
 	<!-- Remove unnessessary files in VS -->
 	<ItemGroup>
 		<None Remove=".*;*.md;LICENSE" />
